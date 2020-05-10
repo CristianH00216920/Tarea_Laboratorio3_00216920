@@ -10,7 +10,7 @@ int main()
     
     cout << "****calcular area y perimetro de un circulo****";
     
-    cout << "\n\nIngrese el area: ";
+    cout << "\n\nIngrese el radio: ";
     cin >> radio;
 
     area = pi * pow(radio,2);

@@ -1,4 +1,5 @@
 #include "iostream"
+#include "iomanip"
 using namespace std;
 
 
@@ -7,8 +8,8 @@ int main()
 {
    
 
-    int n1,n2,n3;
-    int promedio;
+    double n1,n2,n3;
+    double promedio;
 
     cout << "Ingrese el primer numero: ";
     cin >> n1;
@@ -21,6 +22,7 @@ int main()
 
     promedio = (n1+n2+n3)/3;
 
+    cout << fixed << setprecision(2) << promedio;
     cout << "\nEl promedio es: " << + promedio ;
     cout << "\n\n";
 
